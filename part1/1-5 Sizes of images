@@ -1,0 +1,10 @@
+$ docker pull devopsdockeruh/simple-web-service:ubuntu
+$ docker pull devopsdockeruh/simple-web-service:alpine
+
+$ docker image ls
+The ubuntu version is bigger: 83 MB vs 15.7 BM.
+-
+$ docker exec -it b0c11e5f454d /bin/sh
+$ ls
+$ cat text.log
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
