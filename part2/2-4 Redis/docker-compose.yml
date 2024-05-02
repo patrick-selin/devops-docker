@@ -5,8 +5,15 @@ services:
     build: ./backend
     ports:
       - "8080:8080"
+    environment:
+      - REDIS_HOST=redis
+    restart: unless-stopped
 
   frontend:
     build: ./frontend
     ports:
       - "5001:5000"
+
+  redis:
+    image: redis:latest
+    restart: unless-stopped
