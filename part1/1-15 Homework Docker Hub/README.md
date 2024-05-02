@@ -2,6 +2,16 @@
 
 This is a Node.js with Express Backend app. An API for blog post for CRUD operations.
 
+## Deployment notes
+I used Fly.io to deploy my app. I used it with other FSO deployments, so I already had account there.
+
+The Docker image deployment is super straightforward with Fly.io :
+- The fly launch command detects your Dockerfile, builds it, and then deploys your app.
+
+The deployed blogs-app API link:
+https://1-15-homework-docker-hub.fly.dev/api/blogs
+
+
 ## Prerequisites
 
 - Node.js 16.x installed on your machine
