@@ -1,0 +1,1 @@
+https://hub.docker.com/r/patske3000/blog-app
