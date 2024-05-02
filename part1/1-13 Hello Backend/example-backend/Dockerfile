@@ -12,12 +12,11 @@ EXPOSE 8080
 
 ENV PORT=8080
 
-ENV REQUEST_ORIGIN=http://localhost:8080/ping
+ENV REQUEST_ORIGIN=http://localhost:8080
 
 RUN go test ./...
 
 CMD ["./server"]
 
 
-# docker build --platform linux/amd64 -t go-server .
-# docker run -p 8080:8080 go-server
+# cors problem
