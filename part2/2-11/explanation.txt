@@ -1,0 +1,13 @@
+I made a containerized dev and production environment for the todo-app. 
+It has all the stuff needed to run and deploy this app.
+
+There are development and production versions on each Dockerfile and docker-compose file. 
+
+It has several services, just as:
+
+- deno backend, 
+- astro frontend, 
+- postgres database with flyway migrations, 
+- redis caching, 
+- playwrigth e2e testing,
+- nginx reverse proxy.
