@@ -1,0 +1,5 @@
+I changed the ENV in the frontend to point to the right path.
+
+ENV REACT_APP_BACKEND_URL=http://localhost:8080/
+to --->>
+ENV REACT_APP_BACKEND_URL=http://backend:8080/api
