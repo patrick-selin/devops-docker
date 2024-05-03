@@ -11,7 +11,7 @@ services:
       - REDIS_HOST=redis
       - POSTGRES_HOST=db
       - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=example
+      - POSTGRES_PASSWORD=postgres
       - POSTGRES_DATABASE=postgres
     restart: unless-stopped
 
@@ -28,4 +28,4 @@ services:
     image: postgres:13.2-alpine
     restart: unless-stopped
     environment:
-      POSTGRES_PASSWORD: postgres
+      POSTGRES_PASSWORD: example
