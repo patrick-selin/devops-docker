@@ -1,0 +1,1 @@
+ocker run -e DOCKER_USER= -e DOCKER_PWD= -v /var/run/docker.sock:/var/run/docker.sock builder patrick-selin/devops-node-cicd patske3000/express-app
